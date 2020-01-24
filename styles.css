@@ -14,6 +14,18 @@ body {
 	text-align: center ;
 	color: #000000;
 }
+#bootin {
+	max-width: 200px;
+	max-height: 200px;
+	margin:auto;
+	font-size: 50px;
+}
+#butteen {
+	width: 500px;
+	height: 200px;
+	float: left;
+	font-size: 30px;
+}
 #buttons {
 	max-width: 150px;
 	max-height:200px;
