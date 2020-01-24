@@ -1,6 +1,31 @@
+body {
+
+}
+#tootle {
+	max-width: 200px;
+	max-height: 200px;
+	margin:auto;
+	float: top;
+}
+
 #title {
 	font-family: Arial;
 	font-size: 50px;
 	text-align: center ;
 	color: #000000;
+}
+#buttons {
+	max-width: 150px;
+	max-height:200px;
+	margin:auto;
+}
+
+.buttin {
+width: 50px;
+height: 50px;
+float: left;
+
+}
+.buttin:active {
+	 transform: translateY(4px);
 }
