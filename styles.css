@@ -71,6 +71,7 @@ float: left;
 border-color: #fc9438;
 border-width: 5px;
 background-color: #e8bd58;
+color: #ff00fb;
 }
 .buttin:active {
 	 transform: translateY(4px);
