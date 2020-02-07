@@ -1,9 +1,9 @@
 body {
 
 }
-#tootle {
-	max-width: 200px;
-	max-height: 200px;
+#titleSpace {
+	max-width: 400px;
+	max-height: 150px;
 	margin:auto;
 	float: top;
 }
@@ -14,17 +14,41 @@ body {
 	text-align: center ;
 	color: #000000;
 }
-#bootin {
-	max-width: 200px;
-	max-height: 200px;
+
+#iinputSpace {
+	width: 200px;
+	height: 80px;
 	margin:auto;
-	font-size: 50px;
 }
-#butteen {
-	width: 500px;
-	height: 200px;
-	float: left;
+#Mmoney {
 	font-size: 30px;
+	margin:auto;
+}
+
+#iinput {
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin:auto;
+}
+
+#ttipSpace {
+	height:100px;
+	width: 200px;
+	margin: auto;
+}
+
+#ttip {
+	font-size: 20px;
+	width: 200px;
+	margin: auto;
+}
+
+#TIP {
+	width: 200px;
+	height: 20px;
+	float: left;
+	margin: auto;
 }
 #buttons {
 	max-width: 150px;
@@ -40,4 +64,13 @@ float: left;
 }
 .buttin:active {
 	 transform: translateY(4px);
+}
+#totalSpace {
+	width: 200px;
+	height:100px;
+	margin: auto;
+}
+#total {
+	font-size: 50px;
+	text-align: center;
 }

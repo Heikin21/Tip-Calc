@@ -7,28 +7,34 @@
 	<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
 </head>
 <body> 
-	<div id = 'tootle'>
+	<div id = 'titleSpace'>
 		<p id = 'title'> Tip Calculator </p>
 	</div>
-	<div id = 'bootin'>
-		<form id="butteen">
-			Money <br>
-			<input type="text">
-		</form>
+	<div id = 'iinputSpace'>
+		<p id="Mmoney"> Money: <br></p>
+		<input type='text' id="iinput" value=" "> 
+	</div>
+	<div id = 'ttipSpace'>
+		<p id="ttip"> Tip: (type in manually)<br></p>
+		<input type="text" id="TIP" value="%">
 	</div>
 	<div id = 'buttons'>
-		<button class= 'buttin'> 1 </button>
-		<button class= 'buttin'> 2 </button>
-		<button class= 'buttin'> 3 </button>
-		<button class= 'buttin'> 4 </button>
-		<button class= 'buttin'> 5 </button>
-		<button class= 'buttin'> 6 </button>
-		<button class= 'buttin'> 7 </button>
-		<button class= 'buttin'> 8 </button>
-		<button class= 'buttin'> 9 </button>
-		<button class= 'buttin'> Delete </button>
-		<button class= 'buttin'> 0 </button>
-		<button class= 'buttin'> Enter </button>
+		<button class= 'buttin' id="one" onclick="showNum1()"> 1 </button>
+		<button class= 'buttin' id="two" onclick="showNum2()"> 2 </button>
+		<button class= 'buttin' id="three" onclick="showNum3()"> 3 </button>
+		<button class= 'buttin' id="four" onclick="showNum4()"> 4 </button>
+		<button class= 'buttin' id="five" onclick="showNum5()"> 5 </button>
+		<button class= 'buttin' id="six" onclick="showNum6()"> 6 </button>
+		<button class= 'buttin' id="seven" onclick="showNum7()"> 7 </button>
+		<button class= 'buttin' id="eight" onclick="showNum8()"> 8 </button>
+		<button class= 'buttin' id="nine" onclick="showNum9()"> 9 </button>
+		<button class= 'buttin' id="delete" onclick="deleteall()"> Delete </button>
+		<button class= 'buttin' id="zero" onclick="showNum0()"> 0 </button>
+		<button class= 'buttin' id="enter" onclick="entertotal()"> Enter </button>
 	</div>
+	<div id="totalSpace">
+		<p id = "total"></p>
+	</div>
+	<script type="text/javascript" src="tipcalc.js"></script>
 </body>
 </html>
